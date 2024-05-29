@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAlunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlunos.Designer.cs">
+      <DependentUpon>frmAlunos.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDIParent1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAlunos.resx">
+      <DependentUpon>frmAlunos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDIParent1.resx">
       <DependentUpon>MDIParent1.cs</DependentUpon>
     </EmbeddedResource>

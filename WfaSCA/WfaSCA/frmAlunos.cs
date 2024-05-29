@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Bll;
 
 namespace WfaSCA
 {
@@ -17,6 +18,17 @@ namespace WfaSCA
             InitializeComponent();
         }
 
-      
+        private void frmAlunos_Load(object sender, EventArgs e)
+        {
+            initializeListView();
+        }
+
+        public void initializeListView()
+        {
+            Business business = new Business();
+            DataSet dta = business.findAllAlunos();
+
+
+        }
     }
 }

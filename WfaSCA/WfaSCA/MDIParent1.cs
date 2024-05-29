@@ -98,5 +98,11 @@ namespace WfaSCA
         {
 
         }
+
+        private void alunosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form objAlunos = new frmAlunos();
+            objAlunos.ShowDialog();//Nao permite que o usuario click fora da tela
+        }
     }
 }

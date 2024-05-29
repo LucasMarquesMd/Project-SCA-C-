@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bll", "Bll\Bll.csproj", "{8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WfaSCA", "WfaSCA\WfaSCA.csproj", "{49150B7C-DF82-4601-8142-E6D4C7826E2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models.Entities", "Models\Models.Entities.csproj", "{4E22A6CA-461E-4250-8104-6DE5637BBCEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{49150B7C-DF82-4601-8142-E6D4C7826E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49150B7C-DF82-4601-8142-E6D4C7826E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49150B7C-DF82-4601-8142-E6D4C7826E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E22A6CA-461E-4250-8104-6DE5637BBCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E22A6CA-461E-4250-8104-6DE5637BBCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E22A6CA-461E-4250-8104-6DE5637BBCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E22A6CA-461E-4250-8104-6DE5637BBCEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
